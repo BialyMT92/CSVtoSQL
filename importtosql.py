@@ -3,37 +3,39 @@ import time
 import pandas as pd
 from sqlalchemy import create_engine
 
-
 with open('config.txt') as f:
     path = f.read()
     print(path)
 
-#Sec
+# Sec
 svr_name = 'LDWSWISQLVAL01'
 db_name = 'MaintenanceReport'
 u_name = 'PowerBI'
 u_pass = '111098tdg'
 
-
 last_time = time.ctime(os.path.getmtime(path))
-print(last_time)
 
-while(True):
-    if time.ctime(os.path.getmtime(path)) != last_time:
-        df = pd.read_excel(path)
+while time.ctime(os.path.getmtime(path)) == last_time:
+    last_time = time.ctime(os.path.getmtime(path))
+    print(last_time)
 
-        df['Początek zakłócenia'] = df['Początek zakłócenia'].astype('string')
-        df['Pocz. zakłóc. (godz.)'] = df['Pocz. zakłóc. (godz.)'].astype('string')
-        df['Koniec zakłóc.(godz.)'] = df['Koniec zakłóc.(godz.)'].astype('string')
+    while True:
+        if time.ctime(os.path.getmtime(path)) != last_time:
+            df = pd.read_excel(path)
 
-        engine = create_engine(
-            "mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_name + "/MaintenanceReport?driver=SQL+Server",
-            fast_executemany=True)
-        engine.execute("delete from MaintenanceData")
+            df['Początek zakłócenia'] = df['Początek zakłócenia'].astype('string')
+            df['Pocz. zakłóc. (godz.)'] = df['Pocz. zakłóc. (godz.)'].astype('string')
+            df['Koniec zakłóc.(godz.)'] = df['Koniec zakłóc.(godz.)'].astype('string')
 
-        df.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
+            engine = create_engine(
+                "mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_name + "/MaintenanceReport?driver=SQL+Server",
+                fast_executemany=True)
+            engine.execute("delete from MaintenanceData")
 
-        print('New file send to SQL!')
+            df.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
 
-        break
-    time.sleep(10)
+            print('New file send to SQL!')
+            last_time = time.ctime(os.path.getmtime(path))
+            break
+        time.sleep(10)
+    continue
