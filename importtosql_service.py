@@ -10,9 +10,9 @@ from sqlalchemy import create_engine
 
 
 class Pythonservice(win32serviceutil.ServiceFramework):
-    _svc_name_ = 'ExcelDataToSQL'
-    _svc_display_name_ = 'ExcelDataToSQL'
-    _svc_description_ = 'Sending Excel File to SQL when modification time of the file changed'
+    _svc_name_ = 'CSVDataToSQL'
+    _svc_display_name_ = 'CSVDataToSQL'
+    _svc_description_ = 'Sending CSV File to SQL when modification time of the file changed'
 
     @classmethod
     def parse_command_line(cls):
@@ -57,15 +57,17 @@ class Pythonservice(win32serviceutil.ServiceFramework):
 
         while True:
             if time.ctime(os.path.getmtime(path)) != last_time:
-                df = pd.read_excel(path)
-                df['Początek zakłócenia'] = df['Początek zakłócenia'].astype('string')
-                df['Pocz. zakłóc. (godz.)'] = df['Pocz. zakłóc. (godz.)'].astype('string')
-                df['Koniec zakłóc.(godz.)'] = df['Koniec zakłóc.(godz.)'].astype('string')
-                engine = create_engine(
-                    "mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_name + "/" + db_name + "?driver=SQL+Server",
-                    fast_executemany=True)
+                rawCSV = pd.read_csv(path, sep=';')
+
+                rawCSV.drop('Unnamed: 0', inplace=True, axis=1)
+                rawCSV.drop('Unnamed: 13', inplace=True, axis=1)
+
+                rawCSV = rawCSV.loc[(rawCSV["  Pocz.zakł."] != "  Pocz.zakł.")]
+
+                engine = create_engine("mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_name + "/" + db_name +
+                                       "?driver=ODBC Driver 11 for SQL Server", fast_executemany=True)
                 engine.execute("delete from MaintenanceData")
-                df.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
+                rawCSV.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
                 print('New file send to SQL!')
                 last_time = time.ctime(os.path.getmtime(path))
             time.sleep(5)
