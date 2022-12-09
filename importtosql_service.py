@@ -65,7 +65,7 @@ class Pythonservice(win32serviceutil.ServiceFramework):
                 rawCSV = rawCSV.loc[(rawCSV["  Pocz.zakł."] != "  Pocz.zakł.")]
 
                 engine = create_engine("mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_name + "/" + db_name +
-                                       "?driver=ODBC Driver 11 for SQL Server", fast_executemany=True)
+                                       "?driver=ODBC Driver 11 for SQL Server", encoding='utf8', fast_executemany=True)
                 engine.execute("delete from MaintenanceData")
                 rawCSV.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
                 print('New file send to SQL!')

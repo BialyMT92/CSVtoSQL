@@ -3,11 +3,16 @@ import time
 import pandas as pd
 from pandas.io.parsers import read_csv
 from sqlalchemy import create_engine
+import pyodbc
+from sqlalchemy.engine import cursor
 
 with open('config.txt') as f:
     path = f.read()
     print(path)
 
+desired_width=320
+pd.set_option('display.width', desired_width)
+pd.set_option('display.max_columns', 12)
 # Sec
 svr_name = 'LDWSWISQLVAL01'
 db_name = 'MaintenanceReport'
@@ -32,6 +37,7 @@ while True:
         rawCSV.to_sql('MaintenanceData', if_exists='append', con=engine, index=False)
         print('New file send to SQL!')
         last_time = time.ctime(os.path.getmtime(path))
+        print(rawCSV)
     time.sleep(5)
     """ IF something 
             break
