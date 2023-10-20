@@ -1,0 +1,5 @@
+2023-10-20 09:56:05,527 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_PDF\4101_OEE.pdf" send to SQL table "DS_OEE_4101"!
+2023-10-20 09:59:10,717 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4101_OEE.pdf" send to SQL table "DS_OEE_4101"!
+2023-10-20 09:59:12,181 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4102_OEE.pdf" send to SQL table "DS_OEE_4102"!
+2023-10-20 09:59:13,237 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4103_OEE.pdf" send to SQL table "DS_OEE_4103"!
+2023-10-20 09:59:14,218 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4104_OEE.pdf" send to SQL table "DS_OEE_4104"!

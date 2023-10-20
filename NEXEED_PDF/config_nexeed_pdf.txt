@@ -1,1 +1,0 @@
-C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls,C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xlsx,DS_OEE,Shift Begin,Shift End,Availability,Efficiency,Quality,OEE,Equipment
