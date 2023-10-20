@@ -13,7 +13,7 @@ desired_width=320
 pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns', 12)
 
-logging.basicConfig(filename='NEXEED_PDF_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO,
+logging.basicConfig(filename='EXEED_PDF_OEE_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO,
                     format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
