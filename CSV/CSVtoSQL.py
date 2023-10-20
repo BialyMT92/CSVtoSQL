@@ -4,7 +4,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import logging
 
-configfile = pd.read_csv('config.txt', header=None).reset_index()
+configfile = pd.read_csv('config_csv.txt', header=None).reset_index()
 
 desired_width=320
 pd.set_option('display.width', desired_width)

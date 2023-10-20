@@ -44,7 +44,7 @@ class Pythonservice(win32serviceutil.ServiceFramework):
 
     def main(self):
 
-        configfile = pd.read_csv('D:\CopyToSQL\config.txt', header=None).reset_index()
+        configfile = pd.read_csv('D:\CopyToSQL\config_csv.txt', header=None).reset_index()
 
         logging.basicConfig(filename='D:\CopyToSQL\CSV_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO,
                             format="%(asctime)-15s %(message)s")

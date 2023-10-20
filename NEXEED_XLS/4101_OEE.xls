@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7995</WindowHeight>
+  <WindowWidth>21270</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="dd/mm/yyyy\ hh:mm:ss"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Data">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="120" ss:Span="6"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Shift Begin</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Shift End</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Availability [%]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Efficiency [%]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Quality [%]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OEE [%]</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Equipment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-24T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-24T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-24T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-24T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.46</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-25T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-25T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-25T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-25T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">76.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">74.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-26T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-26T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.07</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.07</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-26T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-26T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-27T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-27T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">92.22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.27</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">89.5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-27T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-27T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">95.69</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.58</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-28T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-28T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.49</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">95.82</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-28T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-28T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">92.22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102.36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.58</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-31T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-31T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-31T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-07-31T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-01T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-01T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">91.44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">90.33</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-01T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-01T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.04</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-02T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-02T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.25</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-02T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-02T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-03T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-03T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-03T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-03T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.76</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.76</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-04T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-04T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.35</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-04T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-04T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-07T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-07T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-07T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-07T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-08T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-08T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-08T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-08T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-09T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-09T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">95.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.68</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-09T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-09T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-10T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-10T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.58</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-10T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-10T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-11T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-11T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-11T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-11T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.09</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.09</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-14T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-14T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-14T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-14T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-15T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-15T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-15T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-15T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-16T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-16T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.59</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-16T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-16T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">93.33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">91.39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">84.73</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-17T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-17T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-17T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-17T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.78</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.78</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-18T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-18T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-18T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-18T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-21T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-21T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.79</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.79</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-21T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-21T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">98.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-22T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-22T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.87</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.87</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-22T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-22T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">96.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-23T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-23T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.66</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-23T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-23T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">96.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-24T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-24T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">93.33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.68</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-24T14:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-24T22:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">96.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102.89</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-25T06:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2023-08-25T08:20:20.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.72</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101.72</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query parameter">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="200.25" ss:Span="1"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Query parameter</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Equipment</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Time Interval Begin</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">24.07.2023 06:00:00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Time Interval End</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">01.01.2024 06:00:00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aggregation Level</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">By Shifts</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aggregated Data</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

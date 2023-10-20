@@ -1,0 +1,14 @@
+2023-08-28 12:06:20,807 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:09:13,180 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:10:03,226 File "C:\Users\Public\Documents\GIT\python_excel_to_sql\4101_OEE.xls not found!
+2023-08-28 12:16:14,403 Excel.Application.Workbooks
+2023-08-28 12:16:14,426 Service was not able to send "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" to SQL! Problem with the file.
+2023-08-28 12:16:27,348 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:16:53,577 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:18:29,891 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:25:29,300 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:25:40,942 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:26:25,212 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-08-28 12:26:36,818 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-09-01 11:30:01,260 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
+2023-09-01 11:30:38,534 New file "C:\Users\Public\Documents\GIT\python_excel_to_sql\NEXEED_XLS\4101_OEE.xls" send to SQL table "DS_OEE"!
