@@ -4,13 +4,13 @@ import pandas as pd
 from sqlalchemy import create_engine
 import logging
 
-configfile = pd.read_csv('config_csv.txt', header=None).reset_index()
+configfile = pd.read_csv('C:/Users/Public/Documents/GIT/python_excel_to_sql/CSV/config_csv.txt', header=None).reset_index()
 
 desired_width=320
 pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns', 12)
 
-logging.basicConfig(filename='CSV_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO, format="%(asctime)-15s %(message)s")
+logging.basicConfig(filename='C:/Users/Public/Documents/GIT/python_excel_to_sql/CSV/CSV_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
 # Server
@@ -23,7 +23,6 @@ engine = create_engine("mssql+pyodbc://" + u_name + ":" + u_pass + "@" + svr_nam
                        "?driver=ODBC Driver 11 for SQL Server", fast_executemany=True)
 
 last_time = [0] * len(configfile)
-
 while True:
     for index, row in configfile.iterrows():
         try:      
@@ -49,6 +48,7 @@ while True:
         except:
             logger.error(f'File "{row[0]} not found!')
             last_time[index] = 0
+        
 
     time.sleep(10)
     """ IF something 

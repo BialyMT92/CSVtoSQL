@@ -1,0 +1,40 @@
+2024-07-05 11:33:06,532 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:33:09,141 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:36:21,313 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:36:23,604 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:36:53,830 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:37:03,898 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:37:13,931 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:37:24,009 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:37:34,031 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:37:44,777 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:39:07,873 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:39:09,979 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:39:25,176 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:39:27,637 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:40:17,765 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:40:27,792 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:40:37,854 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:40:47,908 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:40:57,940 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:07,981 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:18,029 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:28,067 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:38,106 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:48,147 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:41:58,206 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:42:08,259 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:42:18,286 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:42:28,337 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:42:38,398 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:44:34,072 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:44:36,537 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:44:46,596 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:44:57,413 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:45:31,926 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:45:34,134 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:46:11,345 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" send to SQL table "MaintenanceData_KPI"!
+2024-07-05 11:46:13,730 New file "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.2.IW38.CSV" send to SQL table "MaintenanceData_PM"!
+2024-07-05 11:46:33,790 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:46:43,828 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.
+2024-07-05 11:46:53,911 Service was not able to send "\\ldwna001\FDCL-PDT-DOKUMENTACJA\POWERBI\FLGL0P.FLGL0P.PM.1.IW69.CSV" to SQL! Problem with the file.

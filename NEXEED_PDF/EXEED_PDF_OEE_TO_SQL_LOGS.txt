@@ -1,0 +1,10 @@
+2023-10-20 10:51:03,511 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4101_OEE.pdf" send to SQL table "DS_OEE_4101"!
+2023-10-20 10:51:05,361 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4102_OEE.pdf" send to SQL table "DS_OEE_4102"!
+2023-10-20 10:51:48,199 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4101_OEE.pdf" send to SQL table "DS_OEE_4101"!
+2023-10-20 10:51:49,652 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4102_OEE.pdf" send to SQL table "DS_OEE_4102"!
+2023-10-20 10:51:50,981 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4103_OEE.pdf" send to SQL table "DS_OEE_4103"!
+2023-10-20 10:51:52,350 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4104_OEE.pdf" send to SQL table "DS_OEE_4104"!
+2023-10-20 10:52:13,153 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4101_OEE.pdf" send to SQL table "DS_OEE_4101"!
+2023-10-20 10:52:14,483 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4102_OEE.pdf" send to SQL table "DS_OEE_4102"!
+2023-10-20 10:52:15,646 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4103_OEE.pdf" send to SQL table "DS_OEE_4103"!
+2023-10-20 10:52:16,613 New file "\\ldwna001\Data\Factory Lodz\Departments\PUBLIKACJE DLA INNYCH DZIALOW\FDCL-ME\OEE DS\4104_OEE.pdf" send to SQL table "DS_OEE_4104"!
