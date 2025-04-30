@@ -9,6 +9,7 @@ configfile = pd.read_csv('C:/Users/Public/Documents/GIT/python_excel_to_sql/CSV/
 desired_width=320
 pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns', 12)
+pd.set_option('display.max_rows', None)
 
 logging.basicConfig(filename='C:/Users/Public/Documents/GIT/python_excel_to_sql/CSV/CSV_TO_SQL_LOGS.txt', filemode='a', level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
@@ -28,8 +29,16 @@ while True:
         try:      
             if time.ctime(os.path.getmtime(row[0])) != last_time[index]:
                 try:
-                    rawCSV = pd.read_csv(row[0], sep=';', on_bad_lines='skip')
-    
+                    with open(row[0], 'r', encoding='utf-8') as f:
+                        lines = f.readlines()
+
+                    skip = 0
+                    for i, line in enumerate(lines):
+                        if line.count(';') >= 1:  # first row with semicolon-separated values
+                            break
+                        else:
+                            skip = i+1
+                    rawCSV = pd.read_csv(row[0], sep=';', skiprows=skip, on_bad_lines='skip')
                     rawCSV.drop(list(rawCSV.filter(regex='Unnamed')), inplace=True, axis=1)
                     rawCSV = rawCSV[(rawCSV != rawCSV.columns).all(axis=1)]
                     rawCSV.columns = rawCSV.columns.str.lower()
@@ -38,6 +47,7 @@ while True:
                     for dup in cols[cols.duplicated()].unique():
                         cols[cols[cols == dup].index.values.tolist()] = [dup + '_' + str(i) if i != 0 else dup for i in
                                                                          range(sum(cols == dup))]
+                    rawCSV = rawCSV.dropna(thresh=3)
                     rawCSV.columns = cols
                     rawCSV.to_sql(row[1], if_exists='replace', con=engine, index=False)
                     last_time[index] = time.ctime(os.path.getmtime(row[0]))
